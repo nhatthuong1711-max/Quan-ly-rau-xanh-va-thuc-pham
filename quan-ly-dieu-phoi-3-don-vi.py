@@ -17,31 +17,31 @@ st.set_page_config(
 if 'accounts' not in st.session_state:
     st.session_state.accounts = {
         "admin": {
-            "name": "Thượng tá Nguyễn Văn Hùng",
-            "role": "Tổng Quản Lý",
+            "name": "Trung tá Nguyễn Thiên Vương",
+            "role": "Chủ nhiệm Hậu Cần Kỹ Thuật",
             "pass": "123456",
-            "unit": "Ban Hậu Cần Tổng",
+            "unit": "Phòng Hậu Cần Kỹ Thuật",
             "icon": "👑"
         },
         "donvi1": {
-            "name": "Đại úy Trần Quốc Toản",
-            "role": "Quản lý Đơn vị",
+            "name": "Trung uý Trần Hoài Nam",
+            "role": "Trợ lý hậu cần",
             "pass": "123456",
             "unit": "Đơn vị 1 (Tiểu đoàn 1)",
             "unit_id": "Đơn vị 1",
             "icon": "🏢"
         },
         "donvi2": {
-            "name": "Trung úy Lê Văn Nam",
-            "role": "Quản lý Đơn vị",
+            "name": "Trung úy Lâm Đình Thưởng",
+            "role": "Trợ lý hậu cần",
             "pass": "123456",
             "unit": "Đơn vị 2 (Tiểu đoàn 2)",
             "unit_id": "Đơn vị 2",
             "icon": "🏢"
         },
         "donvi3": {
-            "name": "Thiếu úy Phạm Văn Đồng",
-            "role": "Quản lý Đơn vị",
+            "name": "Thiếu úy Lê Văn Bằng",
+            "role": "Trợ lý hậu cần",
             "pass": "123456",
             "unit": "Đơn vị 3 (Tiểu đoàn 3)",
             "unit_id": "Đơn vị 3",
